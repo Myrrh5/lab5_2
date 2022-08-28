@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .menu{
+        background-color: black;
+        color: white;
+        text-align: center;
+        width: auto;
+    }
+    .content{
+        background-color: gainsboro;
+        width: auto;
+    }
+    .ads{
+        background-color: cornflowerblue;
+        width: auto;
+    }
+    .flex{
+        display: block;
+    }
+    @media(min-width: 768px){
+        .flex{
+            display: flex;
+        }
+        .menu{
+            width: 30%;
+        }
+        .content{
+            width: 60%;
+        }
+        .ads{
+            width: 10%;
+        }
+    }
+</style>
+<body>
+    <div class="flex">
+        <div class="menu">Menu1<br>Menu2<br>Menu3<br></div>
+        <div class="content">In publishing, art, and communication, _ as speech, writting or any
+            of various arts".</div>
+        <div class="ads">advertising<br>advertising<br>advertising<br></div>
+    </div>
+</body>
+</html>
